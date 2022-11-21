@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "artic-app",
+    "name": "Art Institute App",
     "slug": "artic-app",
+    "description": "This is an app to visualice arteorks from the Art Institute of chicago API",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
