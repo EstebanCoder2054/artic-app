@@ -12,13 +12,22 @@
 	- Favorites Tab
 	- Search Tab
 
+###### When the app is first loaded you will find a nice spplash screen.
+
 ###### In home screen you will be able to view artworks a single item view or as a grid view.
 
 ###### You will be able to save your favorite artworks and have them back stored even if you completely close and reopen the app.
 
 ###### A search bar is placed in the search screen and this uses a debounced value that searchs artworks that contains the desired term.
 
-###### You wil be able to navigate to a more detailed screen where you can have more info about the selected artwork and an image with more quality than the preview ones.
+###### You will be able to navigate to a more detailed screen where you can have more info about the selected artwork and an image with more quality than the preview ones.
+
+###### Some nice lottie animations can be found in the app when no results or empty screen is being displayed.
+
+###### Pull to refresh is other of the features that improves the look and feel of the app.
+
+###### Push notifications beta / No server (Expo push notifications).
+
 
 ----
 
