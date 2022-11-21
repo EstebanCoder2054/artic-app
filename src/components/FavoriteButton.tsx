@@ -16,7 +16,7 @@ export const FavoriteButton = ({ artwork, size = 40 }: Props) => {
     useEffect(() => {
         const loadFavs = async () => {
             const favs = await getData(`favorites`);          
-            const itemFound = favs.find((favItem: SimpleArtwork) => favItem?.id === artwork?.id);
+            const itemFound = favs?.find((favItem: SimpleArtwork) => favItem?.id === artwork?.id);
             if (itemFound) setIsSelected(true);
             else setIsSelected(false);
         }
