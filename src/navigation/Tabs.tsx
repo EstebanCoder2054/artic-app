@@ -35,7 +35,7 @@ export const Tabs = () => {
             <Ionicons name={focused ? `heart-sharp` : `heart-outline`} size={32} />
           ),
         }}
-        name="FavoriteArtworksScreen"
+        name="FavoriteArtworksScreenTab"
         component={FavoriteScreenNavigator}
       />
 
@@ -49,7 +49,7 @@ export const Tabs = () => {
             <Ionicons name={focused ? `search` : `search-outline`} size={32} />
           ),
         }}
-        name="SearchScreen"
+        name="SearchScreenTab"
         component={SearchScreenNavigator}
       />
     </Tab.Navigator>
